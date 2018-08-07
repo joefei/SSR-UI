@@ -15,7 +15,7 @@
     <View
         android:id="@+id/divider"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="0.5dp"
         android:layout_below="@+id/top"
         android:layout_marginTop="44dp"
         android:background="#cccccc" />
@@ -68,6 +68,7 @@
                         android:text="密码 : " />
 
                     <EditText
+                        android:id="@+id/etPwd"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -87,6 +88,7 @@
                         android:text="端口 : " />
 
                     <EditText
+                        android:id="@+id/etPort"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -106,6 +108,7 @@
                         android:text="加密方式 : " />
 
                     <EditText
+                        android:id="@+id/etJmcs"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -125,6 +128,7 @@
                         android:text="加密协议 : " />
 
                     <EditText
+                        android:id="@+id/etJmxy"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -152,6 +156,7 @@
                         android:text="协议参数 : " />
 
                     <EditText
+                        android:id="@+id/etXycs"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -171,6 +176,7 @@
                         android:text="混淆 : " />
 
                     <EditText
+                        android:id="@+id/etHx"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -190,6 +196,7 @@
                         android:text="协议参数 : " />
 
                     <EditText
+                        android:id="@+id/etXycs2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -209,6 +216,7 @@
                         android:text="密码 : " />
 
                     <EditText
+                        android:id="@+id/etPwd"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -267,6 +275,7 @@
                         android:text="邮箱 : " />
 
                     <EditText
+                        android:id="@+id/etEmail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -286,6 +295,7 @@
                         android:text="用户等级 : " />
 
                     <EditText
+                        android:id="@+id/etLevel"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -305,6 +315,7 @@
                         android:text="到期时间 : " />
 
                     <EditText
+                        android:id="@+id/etExpire"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
@@ -320,6 +331,7 @@
 
 
     <RelativeLayout
+        android:id="@+id/rlLink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -331,7 +343,7 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/main_home_selected" />
+            android:src="@drawable/ic_link" />
 
         <TextView
             android:layout_width="wrap_content"
